@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Events from '../components/events';
+
 
 export default function Contacts() {
+  
   return (
-    <div>
-      <h1>We are on Service Conatc page</h1>
-    </div>
+
+   <div>
+    <Events name="computer" size='12 inches' quantity={12}/>
+   </div>
   )
 }

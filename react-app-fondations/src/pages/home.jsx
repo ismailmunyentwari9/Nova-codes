@@ -1,13 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-
+import Products from '../components/products'
 
 export default function Home() {
   return (
     <div>
     
-      <h1>This is My Home Page</h1>
-      <Link to="/about"><button>More About Us</button></Link>
+      <Products name="Pens" quantity={100} size="24m"/>
     </div>
   )
 }

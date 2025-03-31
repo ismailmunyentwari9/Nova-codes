@@ -1,15 +1,11 @@
 import React from 'react'
 
 
-export default function About(props) {
+export default function About() {
   return (
     <div>
       
-      <h1><span className='text-orange-400'>Company Name:</span>{props.name}</h1>
-      <h2><span className='text-orange-400'>Location:</span>{props.age}</h2>
-      <h2><span className='text-orange-400'>Location:</span>{props.location}</h2>
-      <h2><span className='text-orange-400'>Contacts:</span>{props.size}</h2>
-
+      <h1>Hello, I'm about page.....</h1>
     </div>
   )
 }
