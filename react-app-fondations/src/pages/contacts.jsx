@@ -1,14 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Events from '../components/events';
-
+import React from 'react'
 
 export default function Contacts() {
-  
   return (
-
-   <div>
-    <Events name="computer" size='12 inches' quantity={12}/>
-   </div>
+    <div>
+      <h1>Hello, I'm Contacts Page........</h1>
+    </div>
   )
 }
